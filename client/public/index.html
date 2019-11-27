@@ -1,14 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-    <title></title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link rel="stylesheet" href="animations.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Open+Sans:300i,400,700,800|Sofia&display=swap"
+    rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/Checkout/favicon.jpg">
+  <title></title>
+  <style>
+      @media (min-width: 1001px) and (max-width: 1185px) {
+        .headerActionsItemText {
+          display: none;
+      }
+    }
+
+    @media (min-width: 801px) and (max-width: 1000px) {
+      .headerActionsItemText {
+          display: inline-block;
+    }
+  }
+    @media (max-width: 800px) {
+      .headerActionsItemText {
+          display: none;
+    }
+    }
+
+    ::-webkit-scrollbar {
+      width: 13px;
+      background: black;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 15px;
+      width: 13px;
+      background: white;
+    }
+
+    .input-range {
+      height: 2px;
+      width: 200px;
+      position: relative;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+
+    .input-range__track {
+      cursor: pointer;
+      display: block;
+      height: 2px;
+      position: relative;
+      background: #b9bbc4;
+    }
+
+    .input-range__track--active {
+      background: white;
+      height: 3px;
+    }
+
+    .input-range__label--value {
+      position: absolute;
+      top: -1.8rem;
+    }
+    .input-range__label-container {
+      display: none;
+    }
+    .input-range__label--min {
+      display: none;
+    }
+
+    .input-range__slider {
+      appearance: none;
+      background: white;
+      cursor: pointer;
+      display: block;
+      height: 17px;
+      margin-top: -10px;
+      outline: none;
+      position: absolute;
+      top: 50%;
+      width: 4px;
+    }
+    @media (max-width: 768px){
+      .input-range__track{
+        background-color: rgb(78, 75, 75);
+      }
+      .input-range__track--active{
+        background-color: rgb(22, 20, 20);
+      }
+      .input-range__slider{
+        background-color: rgb(22, 20, 20);
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
 </html>

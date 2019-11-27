@@ -1,0 +1,1 @@
+export const EDIT_MY_PROFILE = "EDIT_MY_PROFILE";

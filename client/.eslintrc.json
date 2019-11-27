@@ -21,6 +21,7 @@
         "react"
     ],
     "rules": {
-        "quotes": [2,"double"]
+        "quotes": [2,"double"],
+        "no-unused-vars": ["error", { "args": "none" }]
     }
 }

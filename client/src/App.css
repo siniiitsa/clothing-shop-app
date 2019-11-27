@@ -1,0 +1,98 @@
+@keyframes SHOW_FROM_LEFT {
+  0% {
+    opacity: 0;
+    right: 30px;
+  }
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
+
+@keyframes SHOW_FROM_RIGHT {
+  0% {
+    opacity: 0;
+    left: 30px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+@keyframes SHOW_FROM_TOP {
+  0% {
+    opacity: 0;
+    bottom: 30px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+@keyframes SHOW_FROM_BOTTOM {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes SHOW_CART_BADGE {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes SHOW_SIDEBAR_MENU {
+  0% {
+    opacity: 0;
+    left: -10%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes SHOW_BUTTON_MESSAGE {
+  0% {
+    opacity: 0;
+    bottom: 30px;
+  }
+  20% {
+    bottom: 60px;
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+    bottom: 60px;
+  }
+  100% {
+    opacity: 0;
+    bottom: 30px;
+  }
+}
+
+@keyframes SHOW_SEARCH_MODAL {
+  0% {
+    opacity: 0;
+    height: 10%;
+  }
+  100% {
+    opacity: 1;
+    height: 50%;
+  }
+}
